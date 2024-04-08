@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./img/jslogo.png">
+    <script src="./js/validacion.js"></script>
+</head>
+<body>
+    <section>
+        <h2>Ejercicio 1</h2>
+        <form onsubmit="return calcularInteres()">
+            <label>Ingrese el capital inicial:</label>
+            <br>
+            <input type="number" id="capital1" required>
+            <br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado1" class="resultado"></div>
+    </section>
+
+    <section>
+        <h2>Ejercicio 2</h2>
+        <form onsubmit="return calcularComision()">
+            <label>Ingrese sueldo base:</label>
+            <br>
+            <input type="number" id="sueldo" required>
+            <br>
+            <label>Ingrese monto de la primera venta:</label>
+            <br>
+            <input type="number" id="venta1" required>
+            <br>
+            <label>Ingrese monto de la segunda venta:</label>
+            <br>
+            <input type="number" id="venta2" required>
+            <br>
+            <label>Ingrese monto de la tercera venta:</label>
+            <br>
+            <input type="number" id="venta3" required>
+            <br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado2" class="resultado"></div>
+    </section>
+
+    <section>
+        <h2>Ejercicio 3</h2>
+        <form onsubmit="return calcularDescuento()">
+            <label>Ingrese el monto de la compra:</label>
+            <br>
+            <input type="number" id="montoCompra" required>
+            <br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado3" class="resultado"></div>
+    </section>
+
+    <section>
+        <h2>Ejercicio 4</h2>
+        <form onsubmit="return calcularCalificacion()">
+            <label>Ingrese la calificación del Primer Parcial:</label>
+            <br>
+            <input type="number" id="parcial1" required>
+            <br>
+            <label>Ingrese la calificación del Segundo Parcial:</label>
+            <br>
+            <input type="number" id="parcial2" required>
+            <br>
+            <label>Ingrese la calificación del Tercer Parcial:</label>
+            <br>
+            <input type="number" id="parcial3" required>
+            <br>
+            <label>Ingrese la calificación del Examen Final:</label>
+            <br>
+            <input type="number" id="examenFinal" required>
+            <br>
+            <label>Ingrese la calificación del Trabajo Final:</label>
+            <br>
+            <input type="number" id="trabajoFinal" required>
+            <br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado4" class="resultado"></div>
+    </section>
+
+    <section>
+        <h2>Ejercicio 5</h2>
+        <form onsubmit="return calcularPorcentaje()">
+            <label>Ingrese la cantidad total de estudiantes:</label>
+            <br>
+            <input type="number" id="totalEstudiantes" required>
+            <br>
+            <label>Ingrese el número total de hombres en el grupo:</label>
+            <br>
+            <input type="number" id="numHombres" required>
+            <br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado5" class="resultado"></div>
+    </section>
+
+    <section>
+        <h2>Ejercicio 6</h2>
+        <form onsubmit="return calcularEdad()">
+            <label>Ingrese el día de su fecha de nacimiento:</label>
+            <br>
+            <input type="number" id="diaNacimiento" required>
+            <br>
+            <label>Ingrese el mes de su fecha de nacimiento:</label>
+            <br>
+            <input type="number" id="mesNacimiento" required>
+            <br>
+            <label>Ingrese el año de su fecha de nacimiento:</label>
+            <br>
+            <input type="number" id="anioNacimiento" required>
+            <br>
+            <label>Ingrese el día actual:</label>
+            <br>
+            <input type="number" id="diaActual" required>
+            <br>
+            <label>Ingrese el mes actual:</label>
+            <br>
+            <input type="number" id="mesActual" required>
+            <br>
+            <label>Ingrese el año actual:</label>
+            <br>
+            <input type="number" id="anioActual" required>
+            <br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado6" class="resultado"></div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
